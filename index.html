@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Dylan Yu</title>
+    <!-- Conditionally load WC polyfills -->
+    <!-- Thanks to https://github.com/geelen/x-gif for the snippet -->
+    <script>if (!('registerElement' in document
+      && 'createShadowRoot' in HTMLElement.prototype
+      && 'import' in document.createElement('link')
+      && 'content' in document.createElement('template'))) {
+            document.write('<script src="bower_components/webcomponentsjs/webcomponents.min.js"><\/script>');
+      }</script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="src/html-include.js"></script>
+  </head>
+  <body>
+    <div id="content-wrapper">
+    <html-include src="header.html"></html-include>
+    <br /><br />
+    <div id="page-content">
+      <h1>About Me</h1>
+      Look <a href="about.html" title="About Me">here</a> for information about me.
+      <h1>ASE</h1>
+      ASE Math Club students go <a href="ase.html" title="ASE Math Club">here</a>.
+      <h1>Handouts!</h1>
+      A few of my handouts will be included here, and I hope to amass a large collection throughout the years. Most will in preparation for Mathcounts, MAA Contests (i.e. AMC 8, AMC 10, AIME, etc.), and other math contests (e.g. HMMT, ARML, PUMaC, etc.). Hope you enjoy!
+      You may have noticed that the handouts are divided into categories. Here is a brief summary:
+      <ol>
+        <li>Level 1: For Mathleague and Beginner Mathcounts and AMC 8 (and for those who live in Texas, TMSCA)</li>
+        <li>Level 2: For AMC 10/12 and AIME (you could consider this "Pre-Olympiad")</li>
+        <li>Level 2: For USA(J)MO</li>
+      </ol>
+      <h2>Level 1 Handouts</h2>
+      The following are a few handouts I wrote for Online Classes that I taught during COVID-19 to benefit elementary and middle school students interested in math. 
+      <ol>
+        <li>Basic Algebra (<a href="Handouts/Math_Level_2_Handouts Day 1.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"></span></div></a>)</li>
+        An introductory piece to Algebra (including ratios and proportions, SFFT, etc.).
+        <li>Basic Equation Solving (<a href="Handouts/Math_Level_2_Handouts Day 2.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"></span></div></a>)</li>
+        An introduction to equation solving and algebraic manipulations (including Egyptian fractions, quadratics, etc.).
+        <li>Basic Analytic Geometry (<a href="Handouts/Math_Level_2_Handouts Day 3.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"></span></div></a>)</li>
+        An introduction to coordinates and graphing.
+        <li>More Analytic Geometry (<a href="Handouts/Math_Level_2_Handouts Day 4.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"></span></div></a>)</li>
+        An introduction to coordinate bashing and a few formulas in analytic goemetry.
+        <li>Basic Counting Techniques (<a href="Handouts/Math_Level_2_Handouts Day 4.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"></span></div></a>)</li>
+        The basics of  counting (including permutations, combinations. etc.).
+        <li>Basic Number Theory (<a href="Handouts/Math_Level_2_Handouts Day 4.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"></span></div></a>)</li>
+        An introduction to number theory (including modular arithmetic, bases, etc.).
+      </ol>
+      <h2>Level 2 Handouts</h2>
+      <ol>
+        <li>Polynomials in the AIME (<a href="Handouts/Polynomials_in_the_AIME.pdf"><div class="twoltip">PDF Version<span class="tooltiptext"><img src="Handouts/Polynomials_in_the_AIME_preview.png" width="309px"></img></span></div></a>) (<a href="Handouts/Polynomials_in_the_AIME_TOC.png"><div class="twoltip">Table of Contents<span class="tooltiptext"><img src="Handouts/Polynomials_in_the_AIME_TOC.png"></img></span></div></a>)</li>
+        This was written in collaboration with naman12 (who did at least 99% of the work). A complete guide on how to use polynomials on the AIME. Includes (almost) every polynomial problem on the AIME and also problems from other sources (such as RMO and HMMT).
+      </ol>
+      <h2>Level 3 Handouts</h2>
+      None here yet!
+    </div>
+    <html-include src="footer.html"></html-include>
+  </div>
+  </body>
+</html>
