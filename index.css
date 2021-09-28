@@ -1,9 +1,9 @@
-@import url(//fonts.googleapis.com/css?family=Apple+Chancery);
+@import url(//fonts.googleapis.com/css?family=Baloo+Chettan+2);
 
 @import url(https://fonts.googleapis.com/css?family=Overpass);
 
 #content-wrapper {
-  font-family: 'Apple Chancery', cursive;
+  font-family: 'Baloo Chettan 2', cursive;
   background-color: #FEFEFA;
   width: 100vw;
   height: 100vh;
@@ -29,7 +29,7 @@
 }
 
 #page-content li {
-  font-family: 'Apple Chancery';
+  font-family: 'Overpass';
 }
 
 .twoltip {
